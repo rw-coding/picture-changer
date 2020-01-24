@@ -1,0 +1,58 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: firebrick;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#content {
+    background-color: maroon;
+    padding: 5vh 150px 5vh 150px;
+}
+
+#changingImage {
+    width: auto;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("../images/Cola.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.buttons {
+    margin: 3vh 0.2vw 0 0.2vw;
+    background-color: darkred;
+}
+
+#buttonOne {
+    background-color: firebrick;
+}
+
+p {
+    padding: 1vh 1vw 1vh 1vw;
+    margin: 0;
+    color: white;
+    font-family: cursive;
+}
